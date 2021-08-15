@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SharpMW's portfolio</title>
+    <link href="CSS/main.css" rel="stylesheet" />
 </head>
 <body>
     <h1>Saarim's component library</h1>
@@ -22,58 +23,93 @@
     
     <h2> @Containers</h2>
     <h3> Fluid container</h3>
-    <div> This is a fluid containers</div>
+    <div class="container 
+    container-fluid"> This is a fluid containers</div>
     <h3> Center container</h3>
-    <div>This is a centre container</div>
+    <div class="container
+     container-center">This is a centre container</div>
     <hr>
 
     <h2>@ links</h2>
-    <a href="/"> Primary Link</a>
-    <a href="//">Secondary Link</a>
+    <a href="/" class="link 
+    primary-link"> Primary Link</a>
+    <a href="//" class="link 
+    secondary-link">Secondary Link</a>
     <hr> 
 
      <h2> @list</h2>
      <h3> Unordered list</h3>
-    
-        Her's my list
-        <ul> 
+    Here's my list
+        <ul class="no-bullet"> 
             <li>Item One</li>
             <li>Item Two</li>
             <li>Item Three</li>
              </ul>
 
              <h3> Unordered inline list</h3>
-             <ul> 
-                <li> Inline Item One</li>
-                <li>Inline Item Two</li>
-                <li>Inline Item Three</li>
+             <ul class="no-bullet"> 
+                <li class="inline-item">Inline Item One</li>
+                <li class="inline-item">Inline Item Two</li>
+                <li class="inline-item">Inline Item Three</li>
              </ul> 
+             <h3>
+                 Reverse Order List
+             </h3> 
+             <ol reversed> 
+                 <li> Item One</li>
+                 <li> Item Two</li>
+                 <li> Item Three</li>
+             </ol>
              <hr>
-
+             <h2> @nav</h2>
+    <nav class="navigation container">
+        <div class="navbrand"><strong> SharpMW </strong></div>
+        <ul class="no-bullet navpills"> 
+            <li class="inline-item"> <a class="link link-active" href="//"> Home</a></li>
+            <li class="inline-item"> <a class="link" href="//"> Projects</a></li>
+            <li class="inline-item"> <a class="link" href="//"> Blogs</a></li>
+            </ul>
+        </ul>
+    </nav>
+    <hr>
                  
-    <header> 
-        <img src="images/hero-logo.svg">
-        <h1> Heading inside</h1>
+    <header class="hero"> 
+        <img class="hero-img" src="images/hero-logo.svg">
+        <h1 class="hero-heading">sharpMW : The <span class="hero-highlight"> Web Developer</span></h1>
     </header> 
     <hr>
 
     <h2> @section</h2>
-    <section> 
+    <section class="section"> 
+        <div class="container-center">
         <h3> White section</h3>
-        <p> This is a white section</p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+             do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim a
+             d minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+               velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat c
+               upidatat 
+            non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p
+        >
+    </div>
     </section>
     
-<section> 
+<section class="section ow"> 
+    <div class="container-center">
     <h3> Off-white</h3>
-    <p>This is an off-white section.</p>
-</section><hr> 
+    <p>Lorem ipsum dolor sit amet, consectetu
+        r adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt i
+        n culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+</section>
 
-<footer> 
-    <div> Some small headings under this</div>
+<footer class="footer"> 
+    <div class="footer-header"> Some small headings under this</div>
     <ul> 
-        <li> social-one</li>
-        <li> socia-two</li>
-        <li> social-three</li>
+        <li class="inline-item"><a href="//" class="link" >social-one</a></li>
+        <li class="inline-item"> <a href="//" class="link" >social-two</a></li>
+        <li class="inline-item"> <a href="//" class="link">social-three</a></li>
     </ul>
 </footer>
 
