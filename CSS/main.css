@@ -10,6 +10,7 @@
 body { 
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
+    padding: 0.5rem;
 }
 
 .container { 
@@ -89,6 +90,7 @@ hr {
 }
 .footer { 
     background-color: var(--primary-color);
+    margin-top: 2rem;
     padding: 2rem;
     text-align: center;
     color: black;
@@ -99,4 +101,8 @@ hr {
 }
 .footer ul { 
     padding-inline-start: 0px;
+}
+.footer .footer-header { 
+    font-size: large;
+    font-weight: bold;
 }
