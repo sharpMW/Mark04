@@ -75,6 +75,7 @@ hr {
 .hero .hero-heading { 
     color: var(--dark-gray);
     padding-top: 1rem;
+    text-align: center;
 }
 .hero .hero-heading .hero-highlight { 
     color: var(--primary-color);
