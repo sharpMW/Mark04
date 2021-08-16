@@ -10,9 +10,7 @@
 body { 
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
-    padding: 0.5rem;
 }
-
 .container { 
     padding-left: 1rem;
     padding-right: 1rem;
@@ -20,6 +18,9 @@ body {
 .container-center { 
     max-width: 600px;
     margin: auto;
+    margin-bottom: 0px;
+    padding: 1rem;
+    padding-bottom: 1rem;
 }
 .link { 
     text-decoration: none;
@@ -66,22 +67,31 @@ hr {
     font-weight: bold;
 }
 .hero { 
-    padding: 2rem;
+    margin-bottom: 18rem;
 }
 .hero .hero-img { 
     max-width: 350px;
     display: block;
     margin: auto;
+    margin-left: 10rem;
+    margin-top: 10rem;
 }
 .hero .hero-heading { 
     color: var(--dark-gray);
-    padding-top: 1rem;
-    text-align: center;
+    text-align: right;
+    margin-top: -12rem;
+    margin-right: 15rem;
+    font-size: 2.5rem;
 }
 .hero .hero-heading .hero-highlight { 
     color: var(--primary-color);
 }
-.section h3 { 
+.hero .hi { 
+    color: black;
+    font-size: 3.5rem;
+    font-weight: 550;
+}
+.section h2 { 
     text-align: center;
     padding: 2rem;
 }
@@ -90,7 +100,7 @@ hr {
 }
 .footer { 
     background-color: var(--primary-color);
-    margin-top: 2rem;
+    margin-top: 1rem;
     padding: 2rem;
     text-align: center;
     color: black;
