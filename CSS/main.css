@@ -34,8 +34,22 @@
 }
 /*  for devices of width more than 914px*/
 @media screen and (max-width: 450px) {
+    div.projectlink { 
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+       width: 100vw;
+    }
     a.project-link { 
-        padding: 0.5rem 0.5rem;
+        margin-top: 1vh;
+    }
+    .navigation { 
+        width: 100vw;
+    }
+    ul.navbar { 
+        padding-top: 1vh;
+        padding-left: 0;
+        width: 100vw;
     }
 }
 :root { 
