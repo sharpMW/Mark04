@@ -4,6 +4,18 @@
     body { 
         font-size: 1.6rem;
     }
+    nav.navigation { 
+        height: 15vh;
+    }
+    a.project-link { 
+        padding: 0.5rem 1rem;
+    }
+    ol { 
+        width: 50vw;
+    }
+    ol.reverse {
+        padding-top: 15vh;
+    }
 }
 /* for devices of width less than 914px */
 @media  screen and (max-width: 914px) {
@@ -58,9 +70,7 @@ p {
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
 }
-.project-link { 
-    margin: 0.25rem 0.25rem 0.25rem 0rem;
-}
+
 .navbar { 
     list-style: none;
     margin: 0 1em;
@@ -88,7 +98,6 @@ p {
 .navigation .link-active { 
     font-weight: bold;
 }
-
 .icon { 
     display:none;
 }
@@ -121,6 +130,11 @@ h1 {
     font-weight: 900;
 
 }
+header.hero-02 { 
+    padding: 0;
+    margin: 0;
+    height: 15vh;
+}
 .hero-02 .hero-heading { 
     color: var(--dark-gray);
     text-align: center;
@@ -128,6 +142,7 @@ h1 {
 .hero-02 .hero-heading .hero-highlight { 
     color: var(--primary-color);
 }
+
 
 .section h2 { 
     text-align: center;
@@ -137,20 +152,24 @@ h1 {
     background-color: var(--off-white);
     padding-bottom: 1.5vh;
 }
-.footer { 
+.footer {
     background-color: var(--primary-color);
-    height: 8vh;
+    margin-top: 5vh;
+    height: 12vh;
     text-align: center;
     color: black;
     border-radius: 1rem 1rem 0rem 0rem;
+    box-shadow: 0 -5px 15px gray;
 }
 .footer .link { 
     color: black;
 }
 
 .footer .footer-header { 
-    font-size: large;
+    font-size: larger;
     font-weight: bold;
+    opacity: 0.75;
+    padding-top: 2vh;
 }
 .footer-list { 
     list-style: none;
