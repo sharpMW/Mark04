@@ -33,7 +33,11 @@
     }
 }
 /*  for devices of width more than 914px*/
-
+@media screen and (max-width: 450px) {
+    a.project-link { 
+        padding: 0.5rem 0.5rem;
+    }
+}
 :root { 
     --primary-color: #DE494C;
     --dark-gray: #6B7280;
@@ -54,10 +58,9 @@ p {
     max-width: 600px;
     margin: auto;
 }
-.link { 
+.link {
     text-decoration: none;
     padding: 0.5rem 1rem;
-
 }
  .primary-link { 
      background-color: var(--primary-color);
