@@ -1,15 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@media screen and (min-width: 1400px) {
+    body { 
+        font-size: 1.6rem;
+    }
+}
+/* for devices of width less than 914px */
+@media  screen and (max-width: 914px) {
+    header { 
+        padding-top: 3vh;
+        height: 20vh;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+    }
+    .hero-heading {
+        text-align: center;
+    }
+    .hero-img { 
+        width: 100vw;
+    }
+}
+/*  for devices of width more than 914px*/
 
 :root { 
     --primary-color: #DE494C;
     --dark-gray: #6B7280;
     --off-white: #F5F5F5;
 }
-
 body { 
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
+}
+p { 
+    text-align: center;
 }
 .container { 
     padding-left: 1rem;
@@ -18,9 +41,6 @@ body {
 .container-center { 
     max-width: 600px;
     margin: auto;
-    margin-bottom: 0px;
-    padding: 1rem;
-    padding-bottom: 1rem;
 }
 .link { 
     text-decoration: none;
@@ -41,24 +61,20 @@ body {
 .project-link { 
     margin: 0.25rem 0.25rem 0.25rem 0rem;
 }
-hr { 
-    margin: 2rem 0rem;
-}
-.no-bullet { 
+.navbar { 
     list-style: none;
     margin: 0 1em;
     display: flex;
     align-items: center;
-    padding-top: 1vh;
+    padding-top: 4vh;
 
 }
 .navigation { 
     background-color: var(--primary-color);
     color: black;
-    padding: 1rem;
     border-bottom-left-radius: 1rem ;
-    width: 100vw;
-    height: 5vh;
+    width: auto;
+    height: 10vh;
 }
 .logo { 
     margin-right: auto;
@@ -66,18 +82,22 @@ hr {
 }
 .navigation .link { 
     color: black;
+    float: right;
+
 }
 .navigation .link-active { 
     font-weight: bold;
 }
 
+.icon { 
+    display:none;
+}
 header { 
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 1rem;
-    width: 100vw;
+    width: auto;
     height: 50vh;
     align-content: center;
 }
@@ -85,7 +105,9 @@ h1 {
     margin: 0;
     text-align: justify;
     padding-top: 4rem;
+    font-weight: 500;
 }
+
 .hero-img { 
     max-width: 600px;
 }
@@ -95,8 +117,8 @@ h1 {
 }
 .hero .hi { 
     color: black;
-    font-size: 3.5rem;
-    font-weight: 550;
+    font-size: larger;
+    font-weight: 900;
 
 }
 .hero-02 .hero-heading { 
@@ -113,6 +135,7 @@ h1 {
 }
 .ow { 
     background-color: var(--off-white);
+    padding-bottom: 1.5vh;
 }
 .footer { 
     background-color: var(--primary-color);
@@ -125,10 +148,14 @@ h1 {
 .footer .link { 
     color: black;
 }
-.footer ul { 
-    padding-inline-start: 0px;
-}
+
 .footer .footer-header { 
     font-size: large;
     font-weight: bold;
+}
+.footer-list { 
+    list-style: none;
+}
+.footer-list li { 
+    display: inline-block;
 }
