@@ -197,3 +197,6 @@ header.hero-02 {
 .footer-list li { 
     display: inline-block;
 }
+ul.no-bullet { 
+    list-style: none;
+}
