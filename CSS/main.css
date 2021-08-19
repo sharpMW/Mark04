@@ -43,13 +43,11 @@
     a.project-link { 
         margin-top: 1vh;
     }
-    .navigation { 
-        width: 100vw;
-    }
-    ul.navbar { 
+    
+    ul.navbar {
         padding-top: 1vh;
         padding-left: 0;
-        width: 100vw;
+        
     }
 }
 :root { 
@@ -96,11 +94,11 @@ p {
     padding-top: 4vh;
 
 }
-.navigation { 
+.navigation {
     background-color: var(--primary-color);
     color: black;
-    border-bottom-left-radius: 1rem ;
-    width: auto;
+    border-bottom-left-radius: 1rem;
+   
     height: 10vh;
 }
 .logo { 
