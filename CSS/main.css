@@ -17,42 +17,9 @@
         padding-top: 15vh;
     }
 }
-/* for devices of width less than 914px */
-@media  screen and (max-width: 914px) {
-    header { 
-        padding-top: 3vh;
-        height: 20vh;
-        margin-top: 10vh;
-        margin-bottom: 10vh;
-    }
-    .hero-heading {
-        text-align: center;
-    }
-    .hero-img { 
-        width: 100vw;
-    }
-}
-/*  for devices of width more than 914px*/
-@media screen and (max-width: 450px) {
-    div.projectlink { 
-       display: flex;
-       flex-direction: column;
-       align-items: flex-start;
-       
-    }
-    a.project-link { 
-        margin-top: 1vh;
-    }
-    
-    ul.navbar {
-        padding-top: 1vh;
-        padding-left: 0;
-        
-    }
-    ol.reverse li { 
-        padding-right: 2rem;
-    }
-}
+
+
+
 :root { 
     --primary-color: #DE494C;
     --dark-gray: #6B7280;
@@ -128,9 +95,9 @@ header {
     height: 50vh;
     align-content: center;
 }
-h1 { 
+h1 {
     margin: 0;
-    text-align: justify;
+    text-align: left;
     padding-top: 4rem;
     font-weight: 500;
 }
@@ -160,7 +127,9 @@ header.hero-02 {
 .hero-02 .hero-heading .hero-highlight { 
     color: var(--primary-color);
 }
-
+section { 
+    padding: 1rem;
+}
 
 .section h2 { 
     text-align: center;
@@ -203,4 +172,49 @@ ul.no-bullet {
 }
 .fab fa-github { 
     color: black;
+}
+
+
+
+/*  for devices of width more than 914px*/
+@media screen and (max-width: 450px) {
+    div.projectlink { 
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+       
+    }
+    a.project-link { 
+        margin-top: 1vh;
+    }
+    
+    ul.navbar {
+        padding-top: 1vh;
+        padding-left: 0;
+        
+    }
+    ol.reverse li { 
+        padding-right: 2rem;
+    }
+    .footer { 
+        height: 12vh;
+    }
+}
+
+
+
+/* for devices of width less than 914px */
+@media  screen and (max-width: 914px) {
+    header { 
+        padding-top: 3vh;
+        height: 20vh;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+    }
+    .hero-heading {
+        text-align: center;
+    }
+    .hero-img { 
+        width: 100vw;
+    }
 }
