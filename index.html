@@ -12,9 +12,16 @@
     <nav class="navigation">
         <ul class="navbar"> 
             <li class="logo">iAmSaarim</li>
-            <li> <a class="link link-active" href="index.html"> Home</a></li>
-            <li> <a class="link" href="projects.html" target="_blank"> Projects</a></li>
-            <li> <a class="link" href="blogs.html" target="_blank"> Blogs</a></li> 
+            <li> <a class="link link-navbar link-active" href="index.html"> Home</a></li>
+            <li> <a class="link link-navbar" href="projects.html"> Projects</a></li>
+            <li> <a class="link link-navbar" href="blogs.html"> Blogs</a></li> 
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn"><i class="fa fa-bars"></i></button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="projects.html">Projects</a>
+                  <a href="blogs.html">Blogs</a>
+                </div>
+            </div>
         </ul>
     </nav>
     <header class="hero"> 
@@ -66,6 +73,6 @@
         </ul>
     </div>
     </footer>
-
+<script src="script.js"></script>
 </body>
 </html>

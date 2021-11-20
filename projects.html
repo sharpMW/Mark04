@@ -11,10 +11,16 @@
 <body>
     <nav class="navigation">
         <ul class="navbar"> 
-            <li class="logo">iAmBrand</li>
-            <li class="inline-item"> <a class="link " href="index.html">Home</a></li>
-            <li class="inline-item"> <a class="link link-active" href="projects.html"> Projects</a></li>
-            <li class="inline-item"> <a class="link" href="blogs.html" target="_blank"> Blogs</a></li>
+            <li class="logo">iAmSaarim</li>
+            <li> <a class="link link-navbar link-active" href="index.html"> Home</a></li>
+            <li> <a class="link link-navbar" href="projects.html" target="_blank"> Projects</a></li>
+            <li> <a class="link link-navbar" href="blogs.html" target="_blank"> Blogs</a></li> 
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn"><i class="fa fa-bars"></i></button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="index.html">Home</a>
+                  <a href="blogs.html">Blogs</a>
+            </div>      
             </ul>
         </ul>
     </nav>
@@ -26,7 +32,7 @@
         <li> 
             <h1> Cash Register</h1>
             <small> 18th November, 2021</small>
-            <p> Managing cash just became easy!
+             <p class="list-para"> Managing cash just became easy!
             </p>
             <div class="projectlink">
             <a href="https://my-cash.netlify.app" class="link primary-link project-link" target="_blank">LIVE PROJECT</a>
@@ -36,7 +42,7 @@
         <li> 
             <h1> Take a glimpse of my music taste</h1>
             <small> 3rd September, 2021</small>
-            <p> Get recommended the best of songs in my playlist!
+             <p class="list-para"> Get recommended the best of songs in my playlist!
             </p>
             <div class="projectlink">
             <a href="https://recommend-music.netlify.app/" class="link primary-link project-link" target="_blank">LIVE PROJECT</a>
@@ -46,7 +52,7 @@
         <li> 
             <h1> The Emoji Dictionary</h1>
             <small> 2nd September, 2021</small>
-            <p> Find out what the emojis actually mean!
+             <p class="list-para"> Find out what the emojis actually mean!
             </p>
             <div class="projectlink">
             <a href="https://csb-96mew.netlify.app/" class="link primary-link project-link" target="_blank">LIVE PROJECT</a>
@@ -56,7 +62,7 @@
         <li> 
             <h1> Speak like Captain Jack Sparrow, can you?</h1>
             <small> 18th August, 2021</small>
-            <p>Translate your sentences into the language of Pirates of the Caribbean! If you're a 
+             <p class="list-para">Translate your sentences into the language of Pirates of the Caribbean! If you're a 
              Captain Jack Sparrow fan, you would not wanna miss this!
              </p>
             <div class="projectlink">
@@ -67,7 +73,7 @@
         <li> 
             <h1> Speak like minion, can you?</h1>
             <small> 17th August, 2021</small>
-            <p>Translate your sentences into the language of minions! If you're a 
+             <p class="list-para">Translate your sentences into the language of minions! If you're a 
             minions fan, you would not wanna miss this 
             </p>
             <div class="projectlink">
@@ -79,7 +85,7 @@
         <li>
             <h1> You? a DC fan?</h1>
             <small> 14th August, 2021</small>
-            <p> Another <strong>node.js</strong> project. 
+             <p class="list-para"> Another <strong>node.js</strong> project. 
             Let's see how much of a DC fan you are?
             </p>
             <div class="projectlink">
@@ -91,7 +97,7 @@
         <li>
             <h1>'Do you know me?' Quiz  </h1>
             <small> 13th August, 2021</small>
-            <p> A CLI app built in <strong>node.js</strong>.
+             <p class="list-para"> A CLI app built in <strong>node.js</strong>.
             You can send this to your friends and find who knows 
             you better.
             </p>
@@ -111,6 +117,6 @@
         <li> <a href="https://www.twitter.com/the_mw/" target="_blank" class="link"><i class="fab fa-twitter"></i></a></li>
     </ul>
 </footer>
-
+<script src="script.js"></script>
 </body>
 </html>
