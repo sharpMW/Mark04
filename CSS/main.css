@@ -18,7 +18,22 @@
     }
 }
 
-
+@media  screen and (max-width: 914px) {
+    header {
+        padding-top: 3vh;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+    }
+    .hero-heading {
+        text-align: center;
+    }
+    .hero-img { 
+        width: 100vw;
+    }
+    .footer-header {
+        padding-top: 50vh;
+    }
+} 
 
 :root { 
     --primary-color: #DE494C;
@@ -67,7 +82,7 @@ p {
 .navigation {
     background-color: var(--primary-color);
     color: black;
-    border-bottom-left-radius: 1rem;
+    border-bottom-left-radius: 50px;
    
     height: 10vh;
 }
@@ -152,16 +167,15 @@ section {
     color: black;
 }
 
-.footer .footer-header { 
+.footer .footer-header {
     font-size: larger;
     font-weight: bold;
     opacity: 0.75;
-    padding-top: 5vh;
+    padding-top: 4vh;
 }
-.footer-list { 
+.footer-list {
     list-style: none;
     padding: 0;
-    background-color: var(--primary-color);
     margin: 0;
 }
 .footer-list li { 
@@ -204,17 +218,3 @@ ul.no-bullet {
 
 
 /* for devices of width less than 914px */
-@media  screen and (max-width: 914px) {
-    header { 
-        padding-top: 3vh;
-        height: 20vh;
-        margin-top: 10vh;
-        margin-bottom: 10vh;
-    }
-    .hero-heading {
-        text-align: center;
-    }
-    .hero-img { 
-        width: 100vw;
-    }
-}
